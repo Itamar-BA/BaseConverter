@@ -1,0 +1,10 @@
+{
+  "name": "Base Converter",
+  "description": "Converts from Source base, to Target base.",
+  "version": "1.0",
+  "permissions": [],
+  "background": {
+    "script": ["background.js"]
+  },
+  "manifest_version": 2
+}
