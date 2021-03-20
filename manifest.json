@@ -2,9 +2,9 @@
   "name": "Base Converter",
   "description": "Converts from Source base, to Target base.",
   "version": "1.0",
-  "permissions": [],
+  "permissions": ["contextMenus","activeTab"],
   "background": {
-    "script": ["background.js"]
+    "scripts": ["background.js"]
   },
   "manifest_version": 2
 }
