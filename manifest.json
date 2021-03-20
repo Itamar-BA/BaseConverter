@@ -1,6 +1,6 @@
 {
   "name": "Base Converter",
-  "description": "Converts from Source base, to Target base.",
+  "description": "Converts from Source base, to Target base.check",
   "version": "1.0",
   "permissions": [],
   "background": {
