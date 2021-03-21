@@ -1,10 +1,39 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <title>Title</title>
+    <link rel="stylesheet" href="style.css"/>
+    <script src="popup.js"></script>
 </head>
 <body>
+<b>Src. Base:</b>
+<select id="src">
+    <option value="2">Binary</option>
+    <option value="8">Octal</option>
+    <option value="10">Decimal</option>
+    <option value="16">Hexa</option>
+    <option value="0">Other</option>
+</select>
+<br />
+<br />
+<input name="srcVal"/>
+<br />
+<br />
+<b>Dst. Base:</b>
+<select id="dst">
+    <option value="2">Binary</option>
+    <option value=8>Octal</option>
+    <option value="10">Decimal</option>
+    <option value="16">Hexa</option>
+    <option value="0">Other</option>
+</select>
+<br />
+<br />
+<input name="dstVal"/>
+<br />
+<br />
 
+<button id="generate" class="btn" style="margin-left: 25%">Generate</button>
+
+<script type="text/javascript" src="popup.js"></script>
 </body>
 </html>
