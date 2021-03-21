@@ -25,14 +25,17 @@ function generate(){
     }
     var srcVal = document.getElementById('srcVal').value;
     if(src<=10){
-    for(let i=0; i<srcVal.length; i++){
-        if(srcVal[i]>=src || srcVal[i]<0){
-            throw alert("Please enter valid input");
+        for(let i=0; i<srcVal.length; i++){
+            if(srcVal[i]>=src || srcVal[i]<0){
+                throw alert("Please enter valid input");
+            }
         }
-    }
   }
     let semi = parseInt(srcVal,src);
     let res = semi.toString(dst);
+   // if(isNaN(res)){
+   //     throw alert("Please enter valid input");
+   // }
     throw alert(res.toUpperCase());
 
 }
