@@ -15,6 +15,14 @@ if(ds){
 }
 
 function generate(){
+    var checkBox = document.getElementById("otherSrc");
+    if(checkBox.checked === true){
+        src = parseInt(document.getElementById("otherBsrc").value);
+    }
+    var checkBox2 = document.getElementById("otherDst");
+    if(checkBox2.checked === true){
+        dst = parseInt(document.getElementById("otherBdst").value);
+    }
     var srcVal = document.getElementById('srcVal').value;
     var srcLen = srcVal.length;
     for(let i=0; i<srcVal.length; i++){

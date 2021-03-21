@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" xmlns="http://www.w3.org/1999/html">
 <head>
     <link rel="stylesheet" href="style.css"/>
     <script src="popup.js"></script>
@@ -11,8 +11,10 @@
     <option value="8">Octal</option>
     <option value="10">Decimal</option>
     <option value="16">Hexa</option>
-    <option value="0">Other</option>
 </select>
+<br />
+<input type="checkbox" id="otherSrc">Other:</input>
+<input id="otherBsrc" style="width:70px; height: 11px"/>
 <br />
 <br />
 <input id="srcVal"/>
@@ -24,9 +26,10 @@
     <option value=8>Octal</option>
     <option value="10">Decimal</option>
     <option value="16">Hexa</option>
-    <option value="0">Other</option>
 </select>
 <br />
+<input type="checkbox" id="otherDst">Other:</input>
+<input id="otherBdst" style="width:70px; height: 11px"/>
 <br />
 <br />
 
