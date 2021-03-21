@@ -31,7 +31,7 @@ function generate(){
     }
     let semi = parseInt(srcVal,src);
     let res = semi.toString(dst);
-    throw alert(res);
+    throw alert(res.toUpperCase());
 
 }
 
