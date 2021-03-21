@@ -24,11 +24,10 @@ function generate(){
         dst = parseInt(document.getElementById("otherBdst").value);
     }
     var srcVal = document.getElementById('srcVal').value;
-    var srcLen = srcVal.length;
     for(let i=0; i<srcVal.length; i++){
-       // if(srcVal[i]>=src || srcVal[i]<'0'){
-       //     throw alert("Please enter valid input");
-      //  }
+        if(srcVal[i]>=src || srcVal[i]<0){
+            throw alert("Please enter valid input");
+        }
     }
     let semi = parseInt(srcVal,src);
     let res = semi.toString(dst);
