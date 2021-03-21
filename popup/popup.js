@@ -15,11 +15,22 @@ if(ds){
 }
 
 function generate(){
-    throw alert(src + " " + dst);
+    var srcVal = document.getElementById('srcVal').value;
+    var srcLen = srcVal.length;
+    for(let i=0; i<srcVal.length; i++){
+       // if(srcVal[i]>=src || srcVal[i]<'0'){
+       //     throw alert("Please enter valid input");
+      //  }
+    }
+    let semi = parseInt(srcVal,src);
+    let res = semi.toString(dst);
+    throw alert(res);
+
 }
+
 function changeSrc(){
-    src = document.getElementById('src').value;
+    src = parseInt(document.getElementById('src').value);
 }
 function changeDst() {
-    dst = document.getElementById('dst').value;
+    dst = parseInt(document.getElementById('dst').value);
 }
